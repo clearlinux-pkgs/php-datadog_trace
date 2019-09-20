@@ -1,5 +1,5 @@
 PKG_NAME := php-datadog_trace
-URL = https://pecl.php.net//get/datadog_trace-0.29.0.tgz
+URL = https://pecl.php.net/get/datadog_trace-0.30.2.tgz
 ARCHIVES = 
 
 include ../common/Makefile.common
