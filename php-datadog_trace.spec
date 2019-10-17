@@ -4,7 +4,7 @@
 #
 Name     : php-datadog_trace
 Version  : 0.33.0
-Release  : 5
+Release  : 6
 URL      : https://pecl.php.net/get/datadog_trace-0.33.0.tgz
 Source0  : https://pecl.php.net/get/datadog_trace-0.33.0.tgz
 Summary  : No detailed summary available
@@ -13,6 +13,7 @@ License  : BSD-3-Clause MIT
 Requires: php-datadog_trace-lib = %{version}-%{release}
 BuildRequires : buildreq-php
 BuildRequires : curl-dev
+BuildRequires : perl(Data::Dumper)
 
 %description
 # DD Trace PHP

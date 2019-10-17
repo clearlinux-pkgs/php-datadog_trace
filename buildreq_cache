@@ -1,2 +1,3 @@
 0.33.0
 curl-dev
+perl(Data::Dumper)
