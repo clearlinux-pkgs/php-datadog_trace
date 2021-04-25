@@ -1,7 +1,7 @@
+Configure miss: backtrace in -lexecinfo
 Configure miss: icc
-Configure miss: suncc
 Configure miss: if compiler supports -R
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
+Configure miss: suncc
 Configure miss: whether to enable AddressSanitizer for ddtrace
-Configure miss: backtrace in -lexecinfo
