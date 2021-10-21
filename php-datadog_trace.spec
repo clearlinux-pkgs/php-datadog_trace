@@ -4,7 +4,7 @@
 #
 Name     : php-datadog_trace
 Version  : 0.66.0
-Release  : 49
+Release  : 50
 URL      : https://pecl.php.net/get/datadog_trace-0.66.0.tgz
 Source0  : https://pecl.php.net/get/datadog_trace-0.66.0.tgz
 Summary  : No detailed summary available
