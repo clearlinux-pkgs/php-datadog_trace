@@ -4,7 +4,7 @@
 #
 Name     : php-datadog_trace
 Version  : 0.67.0
-Release  : 53
+Release  : 54
 URL      : https://pecl.php.net/get/datadog_trace-0.67.0.tgz
 Source0  : https://pecl.php.net/get/datadog_trace-0.67.0.tgz
 Summary  : No detailed summary available
@@ -53,4 +53,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/ddtrace.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/ddtrace.so
