@@ -4,7 +4,7 @@
 #
 Name     : php-datadog_trace
 Version  : 0.81.1
-Release  : 75
+Release  : 76
 URL      : https://pecl.php.net/get/datadog_trace-0.81.1.tgz
 Source0  : https://pecl.php.net/get/datadog_trace-0.81.1.tgz
 Summary  : No detailed summary available
