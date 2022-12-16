@@ -4,7 +4,7 @@
 #
 Name     : php-datadog_trace
 Version  : 0.81.1
-Release  : 76
+Release  : 77
 URL      : https://pecl.php.net/get/datadog_trace-0.81.1.tgz
 Source0  : https://pecl.php.net/get/datadog_trace-0.81.1.tgz
 Summary  : No detailed summary available
@@ -57,9 +57,9 @@ make  %{?_smp_mflags}
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/php-datadog_trace
-cp %{_builddir}/datadog_trace-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-datadog_trace/ff25afefb5e2f18db479ac6c6b0dc325b322bd4b || :
-cp %{_builddir}/datadog_trace-%{version}/LICENSE.Apache %{buildroot}/usr/share/package-licenses/php-datadog_trace/2cd6831faa89469ba68fe484d4d7aa1205d2e776 || :
-cp %{_builddir}/datadog_trace-%{version}/LICENSE.BSD3 %{buildroot}/usr/share/package-licenses/php-datadog_trace/5707c40c3ef7eab8b63a20cfc1ca917ba1e9c19a || :
+cp %{_builddir}/datadog_trace-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-datadog_trace/ff25afefb5e2f18db479ac6c6b0dc325b322bd4b
+cp %{_builddir}/datadog_trace-%{version}/LICENSE.Apache %{buildroot}/usr/share/package-licenses/php-datadog_trace/2cd6831faa89469ba68fe484d4d7aa1205d2e776
+cp %{_builddir}/datadog_trace-%{version}/LICENSE.BSD3 %{buildroot}/usr/share/package-licenses/php-datadog_trace/5707c40c3ef7eab8b63a20cfc1ca917ba1e9c19a
 %make_install
 
 
@@ -68,7 +68,7 @@ cp %{_builddir}/datadog_trace-%{version}/LICENSE.BSD3 %{buildroot}/usr/share/pac
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20210902/ddtrace.so
+/usr/lib64/extensions/no-debug-non-zts-20220829/ddtrace.so
 
 %files license
 %defattr(0644,root,root,0755)
