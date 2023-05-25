@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-datadog_trace
-Version  : 0.87.0
-Release  : 86
-URL      : https://pecl.php.net/get/datadog_trace-0.87.0.tgz
-Source0  : https://pecl.php.net/get/datadog_trace-0.87.0.tgz
+Version  : 0.87.2
+Release  : 87
+URL      : https://pecl.php.net/get/datadog_trace-0.87.2.tgz
+Source0  : https://pecl.php.net/get/datadog_trace-0.87.2.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause
@@ -48,10 +48,10 @@ license components for the php-datadog_trace package.
 
 
 %prep
-%setup -q -n datadog_trace-0.87.0
-cd %{_builddir}/datadog_trace-0.87.0
+%setup -q -n datadog_trace-0.87.2
+cd %{_builddir}/datadog_trace-0.87.2
 pushd ..
-cp -a datadog_trace-0.87.0 buildavx2
+cp -a datadog_trace-0.87.2 buildavx2
 popd
 
 %build
