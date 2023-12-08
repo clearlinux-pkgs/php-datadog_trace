@@ -1,3 +1,4 @@
 0.87.2
 curl-dev
 pcre2-dev
+perl(Getopt::Long)
