@@ -1,4 +1,4 @@
-0.87.2
+0.96.0
 curl-dev
 pcre2-dev
-perl(Getopt::Long)
+rustc
