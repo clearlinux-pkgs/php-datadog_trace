@@ -3,5 +3,8 @@ Configure miss: icc
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
 Configure miss: suncc
+Configure miss: whether to compile rust in debug mode
 Configure miss: whether to enable AddressSanitizer for ddtrace
+Configure miss: whether to not link the rust library against the extension at compile time
+Configure miss: x86_64-generic-linux-gnu-cargo
 Configure miss: x86_64-generic-linux-gnu-file
