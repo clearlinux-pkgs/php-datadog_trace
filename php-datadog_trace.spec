@@ -7,7 +7,7 @@
 #
 Name     : php-datadog_trace
 Version  : 1.4.2
-Release  : 126
+Release  : 127
 URL      : https://pecl.php.net/get/datadog_trace-1.4.2.tgz
 Source0  : https://pecl.php.net/get/datadog_trace-1.4.2.tgz
 Source1  : http://localhost/cgit/vendor/php-datadog_trace/snapshot/php-datadog_trace-2024-10-14-14-19-34.tar.gz
